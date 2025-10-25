@@ -25,10 +25,6 @@
     h2{margin:0 0 12px 0; font-size:22px}
     p.lead{color:var(--muted); margin:4px 0 18px 0; max-width:80ch}
 
-    #viz-speed-map { height: 500px; }       /* make it ~1.5× larger */
-  /* if needed, tweak padding from the card */
-    .card .viz { padding: 12px; }
-
     /* cards + grid */
     .grid{display:grid; gap:16px}
     @media (min-width: 980px){ .grid.cols-2{grid-template-columns:1fr 1fr} }
@@ -67,7 +63,7 @@
       <p class="lead">Where internet performance is strongest or weakest by state, and how big the gap is.</p>
 
       <div class="grid cols-2">
-        <article class="wrap">
+        <article class="card wrap">
           <div id="viz-speed-map" class="viz"></div>
           <div class="meta">
             <h3>Busy-hour download speed by state</h3>
