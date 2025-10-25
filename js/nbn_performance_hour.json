@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Download speed vs plan through the day — deviation (Mbps)", "anchor": "start"},
-  "width": "container",
+  "width": 800,
   "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/HaiNam2312/A2/main/data/plans_load_speed_during_day.csv",

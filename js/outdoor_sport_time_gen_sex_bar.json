@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {"text": "Outdoor sport time by age and sex (hours/day)", "anchor": "start"},
-  "width": 600,
-  "height": {"step": 40},
+  "width": 800,
+  "height": 350,
   "data": {
     "url": "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/data/avg_time_sport_outdoor_sex_gen.csv",
     "format": {"type": "csv"}

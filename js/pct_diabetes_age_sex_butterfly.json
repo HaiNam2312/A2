@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Diabetes prevalence by age — butterfly chart (%)", "anchor": "start"},
   "width": 650,
-  "height": {"step": 46},
+  "height": 350,
   "padding": {"left": 90, "right": 12, "top": 4, "bottom": 4},
   "data": {
     "url": "https://raw.githubusercontent.com/HaiNam2312/A2/main/data/over18_diabetes_sex_age.csv",
