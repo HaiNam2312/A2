@@ -3,7 +3,7 @@
   "title": {"text": "Busy-hour download speed by state (Mbps)", "anchor": "start"},
   "width": 400,
   "height": 400,
-  "autosize": {"type": "fit", "contains": "padding"},
+  "autosize": {"type": "fit", "contains": "padding", "resize": true},
   "padding": {"left": 4, "right": 4, "top": 4, "bottom": 4},
   "projection": {"type": "mercator"},
   "data": {
