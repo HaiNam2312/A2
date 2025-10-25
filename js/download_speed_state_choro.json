@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Busy-hour download speed by state (Mbps)", "anchor": "start"},
   "width": "container",
-  "height": "container",
+  "height": 350,
   "autosize": {"type": "fit", "contains": "padding", "resize": true},
   "padding": {"left": 4, "right": 4, "top": 4, "bottom": 4},
   "projection": {"type": "mercator"},
