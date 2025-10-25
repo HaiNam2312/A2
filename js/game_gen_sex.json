@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Share who played digital games by generation (%)", "anchor": "start"},
-  "width": 500,
-  "height": {"step": 36},
+  "width": "container",
+  "height": {"step": 32},
   "data": {
     "url": "https://raw.githubusercontent.com/HaiNam2312/A2/main/data/pct_game_time_by_sex_gen.csv",
     "format": {"type": "csv"}
