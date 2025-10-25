@@ -1,4 +1,4 @@
-,Males (Hours),Confidence Interval (Hours) (low),Confidence Interval (Hours) (high),Females (Hours),Confidence Interval (Hours) (low),Confidence Interval (Hours) (high),Persons (Hours),Confidence Interval (Hours) (low),Confidence Interval (Hours) (high)
+,Males,m_ci_low,m_ci_high,Females,f_ci_low,f_ci_high,Persons,p_ci_low,p_ci_high
 Generation Z,3.4,3.2,3.6,2.5,2,3,3.3,3.1,3.5
 Millenials,2.3,2.1,2.5,2.3,2,2.6,2.3,2.1,2.5
 Generation X,1.9,1.7,2.1,0.8,0.5,1.1,1.4,1.2,1.6
