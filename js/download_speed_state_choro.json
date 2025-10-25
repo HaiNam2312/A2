@@ -4,7 +4,7 @@
   "width": 350,
   "height": 350,
   "autosize": {"type": "fit", "contains": "padding"},
-  "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
+  "padding": {"left": 4, "right": 4, "top": 4, "bottom":4},
   "projection": {"type": "mercator"},
   "data": {
     "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
