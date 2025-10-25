@@ -25,6 +25,10 @@
     h2{margin:0 0 12px 0; font-size:22px}
     p.lead{color:var(--muted); margin:4px 0 18px 0; max-width:80ch}
 
+    #viz-speed-map { height: 560px; }       /* make it ~1.5× larger */
+  /* if needed, tweak padding from the card */
+    .card .viz { padding: 12px; }
+
     /* cards + grid */
     .grid{display:grid; gap:16px}
     @media (min-width: 980px){ .grid.cols-2{grid-template-columns:1fr 1fr} }
@@ -159,13 +163,13 @@
   </footer>
 
   <script>
-    vegaEmbed("#viz-speed-map", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/download_speed_state_choro.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
-    vegaEmbed("#viz-speed-rank", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/download_speed_state_bar.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
+    vegaEmbed("#viz-speed-map", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/download_speed_state_choro.json", { mode: "vega-lite", renderer: "canvas", actions: false }).catch(console.error);
+    vegaEmbed("#viz-speed-rank", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/download_speed_state_bar.json", { mode: "vega-lite", renderer: "canvas", actions: false }).catch(console.error);
     vegaEmbed("#viz-hour", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/nbn_performance_hour.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
-    vegaEmbed("#viz-gaming", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/game_gen_sex.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
-    vegaEmbed("#viz-sport", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/outdoor_sport_time_gen_sex_bar.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
-    vegaEmbed("#viz-diabetes", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/pct_diabetes_age_sex_butterfly.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
-    vegaEmbed("#viz-speed-lat", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/speed_latency_state_scatter.json", { mode: "vega-lite", renderer: "svg", actions: false }).catch(console.error);
+    vegaEmbed("#viz-gaming", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/game_gen_sex.json", { mode: "vega-lite", renderer: "canvas", actions: false }).catch(console.error);
+    vegaEmbed("#viz-sport", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/outdoor_sport_time_gen_sex_bar.json", { mode: "vega-lite", renderer: "canvas", actions: false }).catch(console.error);
+    vegaEmbed("#viz-diabetes", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/pct_diabetes_age_sex_butterfly.json", { mode: "vega-lite", renderer: "canvas", actions: false }).catch(console.error);
+    vegaEmbed("#viz-speed-lat", "https://raw.githubusercontent.com/HaiNam2312/A2/refs/heads/main/js/speed_latency_state_scatter.json", { mode: "vega-lite", renderer: "canvas", actions: false }).catch(console.error);
   </script>
 </body>
 </html>
